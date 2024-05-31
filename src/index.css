@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Not Found Page */
+
+  .not-found-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .not-found-container h1 {
+    font-size: 5rem;
+    color: #333;
+  }
+
+  .not-found-container h2 {
+    font-size: 2rem;
+    color: #555;
+  }
+
+  .not-found-container p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+
+  .not-found-container img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+  }
+
+  .btn {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .btn-success {
+    background-color: #45a049;
+    color: white;
+  }
+  .btn-warnnig {
+    background-color: #bfcb67;
+    color: white;
+  }
+
+  #sidebar a.active {
+    color: red;
+    padding: 30px !important;
+  }
+}
